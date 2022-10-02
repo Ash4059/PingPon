@@ -63,8 +63,8 @@ body
 
 .firstPlayContainer
 {
-    width: 250px;
-    height: 350px;
+    width: 200px;
+    height: 95px;
     display: flex;
     flex-direction: column;
     justify-content: center;
