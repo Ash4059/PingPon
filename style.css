@@ -61,13 +61,28 @@ body
     cursor: pointer;
 }
 
-.firstPlayContainer
+.firstPlayContainer,.restartEndGame
 {
     width: 250px;
-    height: 350px;
+    height: 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    position: absolute;
+}
+
+.restartEndGame
+{
+    justify-content: space-evenly;
+    visibility: hidden;
+    z-index: 0;
+}
+
+.restartEndGame button
+{
+    width: 90px;
 }
 
 .animate-top-right
